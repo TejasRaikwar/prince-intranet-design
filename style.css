@@ -215,9 +215,14 @@ nav>ul:last-of-type>li:last-of-type {
 }
 
 .announcements-container {
-  background-color: #2c5425;
+  /* background-color: #2c5425; */
+  background-color: #59595b;
   color: white;
   border-radius: 8px;
+}
+
+.announcements-container .block-heading {
+  color: white;
 }
 
 .block {
@@ -246,11 +251,14 @@ nav>ul:last-of-type>li:last-of-type {
 
 .news-container .block-header> :last-child,
 .e-services-inner .block-header> :last-child {
-  border: 1px solid rgb(181, 117, 7);
+  /* border: 1px solid #dc3545; */
+  border: 1px solid black;
 }
 
 .block-heading {
   font-size: 20px;
+  color: #dc3545;
+  font-weight: 600;
 }
 
 .block-header> :last-child {
@@ -304,7 +312,7 @@ nav>ul:last-of-type>li:last-of-type {
   align-items: center;
   font-weight: 600;
   line-height: 2rem;
-  color: #1c3817;
+  /* color: #1c3817; */
 }
 
 .news-date i {
@@ -313,7 +321,7 @@ nav>ul:last-of-type>li:last-of-type {
 }
 
 .news-heading {
-  color: #1c3817;
+  /* color: #1c3817; */
   font-size: 18px;
   font-weight: bold;
   padding: 10px 0 15px 0;
@@ -382,7 +390,8 @@ nav>ul:last-of-type>li:last-of-type {
 
 .services-slider i {
   font-size: 70px;
-  color: #c18448;
+  /* color: #c18448; */
+  color: #7c7b7b;
   display: block;
 }
 
@@ -430,7 +439,8 @@ nav>ul:last-of-type>li:last-of-type {
 }
 
 .divs-inner>div .block-header> :last-child {
-  border: 1px solid rgb(181, 117, 7);
+  /* border: 1px solid rgb(181, 117, 7); */
+  border: 1px solid black;
 }
 
 .doc-container ul {
@@ -505,7 +515,7 @@ nav>ul:last-of-type>li:last-of-type {
 .b-date {
   margin-top: 10px;
   margin-left: 8px;
-  color: #2c5425;
+  /* color: #2c5425; */
   font-size: 14px;
   font-weight: bold;
 }
